@@ -6,7 +6,7 @@
   box-sizing: border-box;
   text-decoration: none;
 }
-a{
+a {
   text-decoration: none;
   color: rgb(244, 208, 164);
 }
@@ -15,8 +15,8 @@ body {
   font-size: 100%;
   background: linear-gradient(
     120deg,
-    rgba(48, 34, 1, 1) 45%,
-    rgb(182, 126, 15) 100%
+    rgb(87, 61, 2) 45%,
+    rgb(107, 82, 33) 100%
   );
 }
 .cabecalho {
@@ -31,8 +31,70 @@ body {
   display: flex;
   gap: 50px;
 }
-.cabecalho_menu-item{
+.cabecalho_menu-item {
   text-decoration: none;
-  font-family: 'Sarala' sans-serif;
+  font-family: "Sarala" sans-serif;
   color: aliceblue;
+}
+
+.conteudo {
+  border-top: 0.4px solid;
+  color: aliceblue;
+}
+.conteudo_principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.conteudo_principal_escrito {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding: 20%; */
+  height: 50%;
+  width: 60%;
+  color: aliceblue;
+  gap: 5px;
+  padding-left: 15%;
+}
+
+.conteudo_principal_imagem {
+  height: 70%;
+  width: 70%;
+
+  /* padding-inline-start: 4%; */
+  /* padding-right: 10%; */
+}
+
+.conteudo_secundario div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contatos_secundario_card {
+  width: 200px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  margin: 30px auto;
+  text-align: center;
+}
+.contatos_secundario_card img {
+  width: 100%;
+}
+.contatos_secundario_card p {
+  padding: 0 15px;
+  color: #555;
+}
+.contatos_secundario_card button {
+  margin-bottom: 25px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #5f4809;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 02);
 }
